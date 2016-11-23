@@ -1,0 +1,68 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+}
+
+blockquote::before {
+  content: "“";
+  display: absolute;
+  left: 0;
+  top: 0;
+  font-size: 5rem;
+}
+
+blockquote {
+  white-space: pre-wrap;
+    background-color: whitesmoke;
+    padding: 0 1rem 1rem;
+    margin: 0;
+}
+
+article {
+  padding: 2rem;
+  margin: 0;
+  background-color: lightgrey;
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); 
+}
+
+article .content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+article .image-container {
+  margin-right: 1rem;
+}
+
+article .image-container img {
+    max-height: 40vh;
+    max-width: 100vw;;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: .5rem;
+}
+
+.hero .title {
+  background-image: url("img/sword.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 5rem;
+}
+
+.form {
+  margin: 1rem 0;
+}
+.form .fields {
+  text-align: center;
+  width: 100vw;
+}

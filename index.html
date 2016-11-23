@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf8" />
+  <meta name="theme-color" content="#3e6dc7">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="description" content="A Progressive Web App educating about Kirpan and its laws around Earth." />
+  <meta name="keywords" content="Kirpan,Sikh,laws,Sikhism,Sikhi,Sword,Blade,Knife,Religion" />
+
+  <title> Kirpan - Laws around world </title>
+
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="stylesheet" href="skeleton.css" />
+  <link rel="stylesheet" href="index.css" />
+
+  <script defer src="data.js"></script>
+  <script defer src="fetch.js"></script>
+  <script defer src="util.js"></script>
+  <script defer src="index.js"></script>
+</head>
+
+<body>
+
+  <article class="hero">
+    <h1 class="title"> Kirpan </h1>
+    <div class="content">
+      <div class="image-container"><img alt="Photo of a Sikh man holding a small Kirpan" src="img/kirpan.jpg"></div>
+
+      <div>
+        The kirpan is a sword or knife carried by Sikhs. It is a religious commandment given by Guru Gobind Singh in 1699, that Sikhs
+        must wear five articles of faith at all times, the kirpan being one of five articles. The word kirpan has two roots:
+        the first root is kirpa, which means "mercy", "grace", "compassion" or "kindness"; the second root is aanaa, which
+        in turn means "honor", "grace" or "dignity". Sikhs are expected to embody the qualities of a Sant Sipahi or "saint-soldier"
+        with the courage to defend the rights of all who are wrongfully oppressed or persecuted irrespective of their color,
+        caste, or creed. Kirpans are curved and have a single cutting edge that may be either blunt or sharp. They are often
+        between 3.0 inches (7.6 cm) and 9.0 inches (23 cm) long, and must be made of steel or iron.
+      </div>
+    </div>
+  </article>
+
+  <form class="form" onsubmit="return false;">
+    <div class="fields"> <input type="text" name="query" placeholder="Type country name" /> <button class="geo-location">Detect my location</button>      </div>
+    <div class="search-results"></div>
+  </form>
+</body>
+
+</html>
