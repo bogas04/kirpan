@@ -50,9 +50,15 @@ function onQueryInput(query = '') {
       ]))
     );
   } else {
+    const url = [
+      `https://github.com/bogas04/SikhJS/issues/new?`,
+      `title=${encodeURIComponent("Add information for " + value)}&`,
+      `body=${encodeURIComponent("<!-- Add information here -->")}`,
+    ].join('');
+
     $results.appendChild(h('h4', {}, `
       Sorry, we don't have information regarding <code>${value}</code>.
-      Provide <a href="https://github.com/bogas04/kirpan/issues/new">here</a>.
+      Provide <a href="${url}" target="_blank">here</a>.
     `));
   }
 
