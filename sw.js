@@ -1,4 +1,4 @@
-const VERSION = 'v7';
+const VERSION = 'v9';
 
 const onCache = cache => cache.addAll([
   './',

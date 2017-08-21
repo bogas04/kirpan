@@ -98,6 +98,24 @@ const data = [
     ],
   }],
 
+  ['australia', {
+    formalName: 'Australia',
+    allowed: true,
+    laws: [
+      [
+        `
+        EXEMPTION UNDER SECTION 8B CONTROL OF WEAPONS ACT 1990
+
+        In brief, this exemption means that it is not an offence under the Control of Weapons Act
+        1990 for a Sikh person to carry a kirpan in public on the basis that they carry it out of
+        religious observance. However, if there are any circumstances where Security Officers might
+        have public safety concerns, please refer the issue to Victoria Police.
+        `,
+        `http://www.police.vic.gov.au/retrievemedia.asp?media_id=90509`,
+      ],
+    ],
+  }],
+
   ['uk', {
     formalName: 'United Kingdom, England and Wales',
     allowed: true,
