@@ -14,6 +14,4 @@ A Progressive Web App educating about Kirpan and its laws around Earth.
 
 ## Technology
 
-* Preact for UI
-* Glamour for styling
 * Service worker for caching documents
