@@ -82,6 +82,10 @@ const data = [
         `In most public places in Canada a kirpan is allowed, although there have been some court cases regarding carrying on school premises.`,
         `https://en.wikipedia.org/wiki/Kirpan#Canada`,
       ],
+      [
+        `Consistent with international practice, Transport Canada will also amend the list so that very small knife blades (6 cm or less—about the size of a large paper clip) will not be prohibited on domestic or international flights. To respect our security screening agreement with the United States, knife blades of any length will remain prohibited on flights to the United States through preclearance facilities. Razor blades and box cutters of any size will remain prohibited at all screening checkpoints.`,
+        `https://www.canada.ca/en/transport-canada/news/2017/11/transport_canadatoamendprohibiteditemslistforairpassengers.html`,
+      ],
     ],
   }],
 
