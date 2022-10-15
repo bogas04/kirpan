@@ -18,7 +18,7 @@ const data = [
 
         Explanation II. — In sub-clause (b) of clause (2), the reference to Hindus shall be construed as including a reference to persons professing the Sikh, Jaina or Buddhist religion, and the reference to Hindu religious institutions shall be construed accordingly.
       `,
-        `http://lawmin.nic.in/olwing/coi/coi-english/Const.Pock%202Pg.Rom8Fsss(6).pdf`,
+        `https://www.constitutionofindia.net/constitution_of_india/fundamental_rights/articles/Article%2025`,
       ], [
         `Kirpan under limit of 6 inches blade and 3 inches handle is allowed on Domestic Flights in India.`,
         './img/india_domestic_flight.jpg',
